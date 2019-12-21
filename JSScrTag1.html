@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function init(){
+        let hoge = 3, fuga=3, piyo=5;
+        let i = (hoge==fuga);
+        let ro = (hoge!=fuga);
+        let ha = (hoge<fuga);
+        let ni = (hoge>fuga);
+        let ho = (hoge<=fuga);
+        let foo="い="+i+"、ろ="+ro+"、は="+ha+"、に="+ni+"、ほ="+ho;
+        document.getElementById("piyo").textContent = foo;
+      }
+    </script>
+  </head>
+  <body onload="init()">
+      <p>
+        test
+      </p>
+      <p id = "piyo">
+      </p>
+  </body>
+</html>
