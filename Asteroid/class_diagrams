@@ -1,0 +1,45 @@
+@startuml
+
+entity Placed {
+cx
+cy
+w
+h
+}
+
+entity Moves {
+Placed
+dx
+dy
+}
+entity MovingObjects {
+cx
+cy
+w
+h
+dx
+dy
+}
+
+entity Rock {
+a
+image
+}
+
+entity Shot {
+count
+power
+maxCount
+}
+
+entity Ship {
+rotate
+power
+accel
+keyL
+keyR
+keyF
+keyB
+image
+}
+@enduml
